@@ -1,0 +1,11 @@
+			
+Static			
+t	JavaToken	#1006	
+range	Range	#1008	
+begin	Position	#1018	
+end	Position	#1019	
+kind	int	9	
+text	String	ObjectFieldVariable text	
+previousToken		null	
+nextToken	JavaToken	#1016	
+Static			

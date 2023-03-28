@@ -1,0 +1,26 @@
+cd C:\mavenproject1; "JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot" cmd /c "\"C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.mavenproject1.MethodVisitor -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 --no-transfer-progress org.codehaus.mojo:exec-maven-plugin:3.1.0:exec -Dcurrent.jrebel.agent.path=C:\\Users\\LP\\AppData\\Roaming\\NetBeans\\17\\griffin\\jrebel.jar"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+------------< com.yourorganization:javaparser-maven-sample >------------
+Building javaparser-maven-sample 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.1.0:exec (default-cli) @ javaparser-maven-sample ---
+Method Name: actionPerformed
+Method Name: actionPerformed
+Method Name: actionPerformed
+Method Name: actionPerformed
+Method Name: initComponents
+Method Name: jButton1ActionPerformed
+Method Name: jButton2ActionPerformed
+Method Name: jButton4ActionPerformed
+Method Name: jButton5ActionPerformed
+Method Name: run
+Method Name: main
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.773 s
+Finished at: 2023-03-28T19:45:52+02:00
+------------------------------------------------------------------------
