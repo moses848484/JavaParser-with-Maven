@@ -1,0 +1,37 @@
+cd C:\mavenproject1; "JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot" cmd /c "\"C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.6.10-hotspot\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.mavenproject1.Methodcheck -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 --no-transfer-progress org.codehaus.mojo:exec-maven-plugin:3.1.0:exec -Dcurrent.jrebel.agent.path=C:\\Users\\LP\\AppData\\Roaming\\NetBeans\\17\\griffin\\jrebel.jar"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+------------< com.yourorganization:javaparser-maven-sample >------------
+Building javaparser-maven-sample 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.1.0:exec (default-cli) @ javaparser-maven-sample ---
+Method Name Printed: actionPerformed
+Method Name Printed: actionPerformed
+Method Name Printed: actionPerformed
+Method Name Printed: actionPerformed
+Method Name Printed: initComponents
+Method Name Printed: jButton1ActionPerformed
+Method Name Printed: jButton2ActionPerformed
+Method Name Printed: jButton4ActionPerformed
+Method Name Printed: jButton5ActionPerformed
+Method Name Printed: run
+Method Name Printed: main
+Method Name Collected: actionPerformed
+Method Name Collected: actionPerformed
+Method Name Collected: actionPerformed
+Method Name Collected: actionPerformed
+Method Name Collected: initComponents
+Method Name Collected: jButton1ActionPerformed
+Method Name Collected: jButton2ActionPerformed
+Method Name Collected: jButton4ActionPerformed
+Method Name Collected: jButton5ActionPerformed
+Method Name Collected: run
+Method Name Collected: main
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  3.422 s
+Finished at: 2023-03-29T14:28:37+02:00
+------------------------------------------------------------------------
