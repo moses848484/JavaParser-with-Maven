@@ -1,0 +1,5 @@
+Total Tokens for each Token type using the java token code developed program
+-Identifiers = 1126
+-operators = 59
+-comments = 21
+-keywords = 36
