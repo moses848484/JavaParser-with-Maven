@@ -1,53 +1,53 @@
 body {
-    font-family: "Gentium Basic";
+    font-family: Poppins-Regular;
     background: #9053c7;
     background-image: linear-gradient(90deg, #4158d0 0%, #c850c0 100%);
 }
 
 .change {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     color: deepskyblue;
     font-size: 1.6em;
 }
 
 .change1 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 .change2 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 .change3 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 .change4 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 .change5 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 .change6 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: white;
 }
 
 #h1 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: Poppins-Regular;
     font-size: 2em;
     background-color: rgb(37, 146, 235);
     color: white;
@@ -68,7 +68,7 @@ body {
 }
 
 #generate {
-    font-family: 'Harmattan', sans-serif;
+    font-family: Poppins-Regular;
     font-size: 2em;
     font-weight: bold;
     padding: .5em;
@@ -93,6 +93,7 @@ body {
 }
 
 #sentences p {
+    font-family: Poppins-Regular;
     background-color: white;
     margin: 2em;
     color: black;
